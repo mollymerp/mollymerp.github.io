@@ -11,8 +11,9 @@
 }
 
 .site-title {
-    font-size: 26px;
-    font-weight: 300;
+    font-family: $header-font-family;
+    font-size: 36px;
+    font-weight: 200;
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
@@ -34,6 +35,7 @@
 
     .page-link {
         color: $text-color;
+        font-family: $header-font-family;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the last one
@@ -204,6 +206,7 @@
  * Posts
  */
 .post-header {
+    font-family: $header-font-family;
     margin-bottom: $spacing-unit;
 }
 
