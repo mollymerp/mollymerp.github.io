@@ -1,0 +1,57 @@
+- header: 
+  - name: Molly Lloyd
+    deets:
+    - text: mollylloyd@gmail.com
+      link: mailto:mollylloyd@gmail.com
+    - text: mollylloyd.me
+      link: http://www.mollylloyd.me
+    - text: linkedin
+      link: linkedin.com/in/mollylloyd
+    - text: github
+    link: https://github.com/mollymerp
+- section:
+  - section_name: Projects
+    show: true
+    deets: 
+     - title: wiggler
+       link: http://www.wigglersf.com
+       description: "A mobile-responsive mapping application for San Francisco that uses elevation data to allow users to find the flattest route, the fastest biking route, and the fastest walking route between two points. It also has a running-loop feature that finds a pseudo-circular route of a given distance that avoids major elevation changes." 
+       github: https://www.github.com/hackerjams/wiggler
+       show: true
+     - title: knapsack
+       link: http://www.knapsack-app.herokuapp.com
+       description: "A tool to allow users to seamlessly save, organize, and share their favorite books."
+       github: https://github.com/knapsack-app/knapsack
+       show: true
+  - section_name: Education
+    show: true
+    deets:
+     - institution: MakerSquare
+       major: Software Engineering Immersive
+       year: 2015
+     - institution: University of Wisconsin - Madison
+       major: "BS, Mathematical Economics"
+       year: 2013
+  - section_name: Experience
+    show: true
+    deets: 
+     - title: Senior Research Assistant
+       place: Federal Reserve Board of Governors
+       location: "Washington, DC"
+       from: "August, 2013"
+       to: "August, 2015"
+       show: true
+  - section_name: Volunteer
+    show: true
+    deets:
+    - org: "Court Appointed Special Advocates (CASA) of Washington, DC"
+      link: http://casadc.org/
+      role: CASA
+      dates: "January, 2014 - August, 2015"
+    - org: "Promoting Awareness, Victim Empowerment (PAVE)"
+      link: http://pave-uw.tumblr.com/
+      role: Violence Prevention Peer Educator
+    - org: Dane County Rape Crisis Center
+      link: http://www.danecountyrcc.org/
+      role: Crisis Line Counselor
+
