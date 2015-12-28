@@ -12,8 +12,8 @@ description: > # this means to ignore newlines until "baseurl:"
   Molly Lloyd is a software engineer based in San Francisco. These are her brain blobs. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://mollylloyd.me" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: mollymerp
+github_username:  mollymerp
 
 # Build settings
 markdown: kramdown

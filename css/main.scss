@@ -2,13 +2,14 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 @charset "utf-8";
-@import url(https://fonts.googleapis.com/css?family=Kanit:400,200,300|Karma:400,300,600|Source+Code+Pro:400,300,500);
+@import url(https://fonts.googleapis.com/css?family=Neuton:400,300,200,700,400italic|Playfair+Display:400,700italic,400italic,700|Source+Code+Pro:400,300,500);
 
-
+// optional sc font: Playfair+Display+SC:400,700,400italic,700italic|
 
 // Our variables
-$header-font-family: "kanit", Helvetica, Arial, sans-serif;
-$base-font-family: "karma", Times New Roman, serif;
+$header-font-family: "playfair display", Helvetica, sans-serif;
+$header-font-weight: 700;
+$base-font-family: "neuton", Times New Roman, serif;
 $base-font-size:   20px;
 $base-font-weight: 300;
 $small-font-size:  $base-font-size * 0.875;
@@ -16,13 +17,15 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
+$text-color:       #000000;
 $background-color: #FFF;
-$brand-color:      #D43E73;
+$brand-color:      #CDDC39;
+$accent-color:     #AA00FF;
 
-$grey-color:       #C3C5CC;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+
+$grey-color:       opacify($text-color, .7);
+$grey-color-light: opacify($grey-color, .4);
+$grey-color-dark:  opacify($grey-color, .9);
 
 // Width of the content area
 $content-width:    800px;
