@@ -1,24 +1,21 @@
 ---
-layout: default
+layout: landing
 
 ---
 
-<div class="home">
-
-  <h1 class="page-heading"></h1>
-
-  <ul class="post-list">
+<div class="post-list">
     {% for post in site.posts %}
-      <li>
-        <div class="post-container">
-          <div></div>
-          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-          <h2>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          </h2>
-        </div>
-      </li>
+      <a class = "post-link" href="{{ post.url | prepend: site.baseurl }}">
+          <div class="post-icon">
+            {% if post.icon %}
+              <i class = "fa fa-{{post.icon}}"></i>
+            {% endif %}
+            </div>
+          <div class="post-info" >
+            <div class = "post-title">{{ post.title }}</div>
+            <div class="post-date">{{post.categories}} &times; {{ post.date | date: "%b %-d, %Y" }}</div>
+          </div>
+      </a>
     {% endfor %}
-  </ul>
 
 </div>
